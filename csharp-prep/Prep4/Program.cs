@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-
+        Console.WriteLine();
         List<int> numbers = new List<int>();
 
         int yourNumber = -1;
@@ -49,5 +49,6 @@ class Program
         }
 
         Console.WriteLine($"The max is: {max}");
+        Console.WriteLine();
     }
 }
