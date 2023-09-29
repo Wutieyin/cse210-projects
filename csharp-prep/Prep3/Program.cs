@@ -7,7 +7,7 @@ class Program
         Console.WriteLine();
 
         Random randomGenerator = new Random();
-        int magicNumber = randomGenerator.Next(1, 101);
+        int number = randomGenerator.Next(1, 101);
 
         int guess = -1;
 
@@ -21,7 +21,7 @@ class Program
                 Console.WriteLine("Lower");
             }
 
-            else if (guess < magicNumber)
+            else if (y < number)
             {
                 Console.WriteLine("Higer");
             }
